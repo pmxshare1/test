@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-page section {
+  width: 22rem;
+  height: 12rem;
+  border: 0.5px solid #808080;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+form div {
+  display: flex;
+  margin: 10px 0;
+}
+
+form div label {
+  flex-basis: 150px;
+}
+
+form div input[type="text"],
+form div input[type="password"] {
+  flex-basis: 100%;
+  padding: 2px 4px;
+}
+
+form div input[type="submit"] {
+  padding: 4px 8px;
+  font-size: large;
+}
